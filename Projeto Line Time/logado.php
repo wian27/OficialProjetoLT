@@ -12,7 +12,7 @@ $nome = $_SESSION['nome'];
 
 //verificação
 if (isset($_SESSION['logado']) != true){
- header('Location: index.php');
+ header('Location: ');
 }
  
 mysqli_close($conexao);
