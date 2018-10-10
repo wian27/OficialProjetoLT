@@ -16,17 +16,17 @@ $nome = $_POST['nome'];
 $ultimonome = $_POST['ultimonome'];
 $email = $_POST ['email']; 
 $senha  =  $_POST['senha'];
-$cidade = $_POST ['cidade'];
 
 
 
 
-$sql = "INSERT INTO usuarios (nome, ultimonome, email, senha, cidade)
-VALUES ('$nome', '$ultimonome', '$email', ' $senha', '$cidade')";
+
+$sql = "INSERT INTO usuarios (nome, ultimonome, email, senha)
+VALUES ('$nome', '$ultimonome', '$email', ' $senha')";
  
  
 if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
+    echo "New record created successfully;
 
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;

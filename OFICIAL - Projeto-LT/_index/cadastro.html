@@ -41,25 +41,25 @@
 						<div id="formulario_2">
 							<h3> <font color="#2F4F4F">Campo de Cadastro</font> </h3>
 
-							<form id="formulario2" method="post" action="login.html">
+							<form id="formulario2" method="post" action="conexao.php">
 								<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
 										<label for="formGroupExampleInput"> <b>Escreva seu nome</b></label>
-										<input id="n1" type="text" class="form-control" id="formGroupExampleInput" placeholder="Informe seu nome">
+										<input id="n1" name="nome" type="text" class="form-control" id="formGroupExampleInput" placeholder="Informe seu nome">
 									</div>
 								</div>	
 								<div class="col-md-6">	
 									<div class="form-group">
 										<label for="formGroupExampleInput2"><b>Escreva seu sobrenome</b></label>
-										<input id="n2" type="text" class="form-control" id="formGroupExampleInput2" placeholder="Informe seu sobrenome">
+										<input id="n2" name="ultimonome" type="text" class="form-control" id="formGroupExampleInput2" placeholder="Informe seu sobrenome">
 									</div>
 								</div>	
 								<div class="col-md-6">	
 									<div class="form-group">
 										<div id="senha_1">
 											<label for="formGroupExampleInput2"><b>*Escolha uma Senha</b></label>
-											<input id="senha1" type="password" class="form-control" id="formGroupExampleInput2" placeholder="Digite sua senha">
+											<input id="senha1" name="senha" type="password" class="form-control" id="formGroupExampleInput2" placeholder="Digite sua senha">
 										</div>
 									</div>
 								</div>
@@ -67,7 +67,7 @@
 									<div class="form-group">
 										<div id="senha_2">
 											<label for="formGroupExampleInput2"><b>*Confirme sua senha</b></label>
-											<input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Digite sua senha">
+											<input type="password" name="senha" class="form-control" id="formGroupExampleInput2" placeholder="Digite sua senha">
 										</div>
 									</div>
 								</div>	
@@ -75,7 +75,7 @@
 									<div class="form-group">
 										<div id="email_1">
 											<label for="formGroupExampleInput"> <b>Informe seu email</b></label>
-											<input id="email1" type="email" class="form-control" id="formGroupExampleInput" placeholder="Digite seu email">
+											<input id="email1" name="email" type="email" class="form-control" id="formGroupExampleInput" placeholder="Digite seu email">
 										</div>
 									</div>
 								</div>	
@@ -83,7 +83,7 @@
 									<div class="form-group">
 										<div id="email_2">
 											<label for="formGroupExampleInput"> <b>Confirme seu email</b></label>
-											<input type="email" class="form-control" id="formGroupExampleInput" placeholder="Digite seu email">
+											<input type="email" name="email" class="form-control" id="formGroupExampleInput" placeholder="Digite seu email">
 										</div>
 									</div>
 								</div>
@@ -91,6 +91,7 @@
 								</div>
 								<div id="button"><button type="submit" class="btn btn-danger btn-lg btn-block">Cadastrar</button></div>
 							</form>
+							<h5><a href="login.html">Fazer login</a></h5>
 					</div>	
 					
 				
