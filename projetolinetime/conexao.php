@@ -4,6 +4,7 @@ $username = "root";
 $password = "";
 $dbname = "projetoline";
 
+//
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
