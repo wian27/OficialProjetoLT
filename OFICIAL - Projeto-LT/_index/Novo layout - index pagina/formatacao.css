@@ -59,7 +59,8 @@
 			height: 520px;
 			background:#DCDCDC;
 			color: #B22222;
-			top: 46%;
+			top: 50%;
+			left:15% ;
 			position: absolute;
 			transform: translate(-50%,-50%);
 			box-sizing: border-box;
@@ -77,9 +78,10 @@ h4 {
 .pessoas_online{
 			width: 320px;
 			height: 252px;
-			background:#1C1C1C;
+			background:#9BCD9B;
 			color: #8FBC8F;
-			top: 88%;
+			top: 85%;
+			left:15%;
 			position: absolute;
 			transform: translate(-50%,-50%);
 			box-sizing: border-box;
@@ -105,12 +107,12 @@ h4 {
 }
 
 .conteudo {
-			width: 870px;
-			height: 800px;
+			width: 1270px;
+			height: 1200px;
 			background:#E8E8E8;
 			color: #B22222;
-			top: 60%;
-			left:56%;
+			top: 80%;
+			left:50%;
 			position: absolute;
 			transform: translate(-50%,-50%);
 			box-sizing: border-box;
@@ -120,12 +122,12 @@ h4 {
 }
 
 .empresas {
-			width: 720px;
+			width: 760px;
 			height: 180px;
 			background:#DCDCDC;
 			color: #B22222;
-			top: 15%;
-			left: 50%;
+			top: 10%;
+			left: 60%;
 			position: absolute;
 			transform: translate(-50%,-50%);
 			box-sizing: border-box;
@@ -138,7 +140,10 @@ h5 {
 .barra_postarpensamento {
 					margin-top:190px;
 }					
-
+#nav nav {
+		border-radius:10px;
+		margin-top:5px;
+}		
 
 	
 
