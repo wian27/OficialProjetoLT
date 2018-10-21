@@ -10,6 +10,13 @@
 			background-color:#9BCD9B;
 }	
 
+.corpo1 {
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+
+}	
+
 .head {
 		margin-top: ;
 		width: 100%;
@@ -20,12 +27,11 @@
 
 .foto_perfil {
 			border: 1px solid black;
-			width: 120px;
-			height: 80px;
-			margin-right: 300px;
-			margin-top: 08px;
-			float: right;
-			border: 2px soft black;
+			width: 150px;
+			height: 150px;
+			margin-top: 10px;
+			float: left;
+			border-radius: 20px;
 }	
 
 .line{
@@ -55,13 +61,13 @@
 }
 
 .midia {
-			width: 320px;
+			width: 200px;
 			height: 520px;
 			background:#DCDCDC;
 			color: #B22222;
-			top: 46%;
-			position: absolute;
-			transform: translate(-50%,-50%);
+			float:left ;
+			margin-left:-210px ;
+			margin-top:350px;  
 			box-sizing: border-box;
 			padding: 50px 30px;
 			border-radius: 10px;
@@ -75,13 +81,13 @@ h4 {
 }
 
 .pessoas_online{
-			width: 320px;
-			height: 252px;
-			background:#1C1C1C;
+			width: 200px;
+			height: 282px;
+			background:#9BCD9B;
 			color: #8FBC8F;
-			top: 88%;
-			position: absolute;
-			transform: translate(-50%,-50%);
+			float:left ;
+			margin-left:-210px ;
+			margin-top:900px;
 			box-sizing: border-box;
 			padding: 30px 30px;
 			border-radius: 10px;
@@ -98,6 +104,7 @@ h4 {
 	border-radius: 20px;
 }
 
+
 .pessoas_online input[type="submit"]:hover{
 	cursor: pointer;
 	background:#E0FFFF;
@@ -105,14 +112,10 @@ h4 {
 }
 
 .conteudo {
-			width: 870px;
-			height: 800px;
+			width: 1100px;
+			height: 1250px;
 			background:#E8E8E8;
 			color: #B22222;
-			top: 60%;
-			left:56%;
-			position: absolute;
-			transform: translate(-50%,-50%);
 			box-sizing: border-box;
 			padding: 36px 30px;
 			border-radius: 10px;
@@ -120,14 +123,11 @@ h4 {
 }
 
 .empresas {
-			width: 720px;
+			width: 750px;
 			height: 180px;
 			background:#DCDCDC;
 			color: #B22222;
-			top: 15%;
-			left: 50%;
-			position: absolute;
-			transform: translate(-50%,-50%);
+			margin-left:250px ;
 			box-sizing: border-box;
 			padding: 20px 30px;
 			border-radius: 10px;
@@ -136,11 +136,24 @@ h5 {
 	text-align: center;
 }
 .barra_postarpensamento {
-					margin-top:190px;
+					float:center;
+					margin-top:50px;
+					margin-left:20px;
+					
 }					
+#nav nav {
+		border-radius:10px;
+		margin-top:15px;
+		margin-left:20px;
+		
+		
+}		
 
-
-	
+#nome_usuario {
+				float:left;
+				margin-top:170px;
+				margin-left: -150px;
+}	
 
 
 
