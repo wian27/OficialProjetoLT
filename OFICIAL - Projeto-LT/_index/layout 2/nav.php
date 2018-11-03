@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/formatacao.css">
 </head>
 <body>
-	<nav class="navbar navbar-fixed menu fundo-menu">
+	<nav class="navbar navbar-fixed-top menu fundo-menu">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
 	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#minhaNavbar">

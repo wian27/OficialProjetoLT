@@ -13,7 +13,7 @@
 	include("nav.php");
 	?>
 	<div class="container text-center">    
-	  <div class="row">
+	  <div class="row margin-top-conteudo">
 	    <div class="col-sm-3 well">
 	      <div class="well">
 	        <p><a href="#" class="texto-verde">Meu Perfil</a></p>
@@ -40,7 +40,7 @@
 	        <div class="col-sm-12">
 	          <div class="panel panel-default text-left">
 	            <div class="panel-body">
-	              <p contenteditable="true">Status: Feeling Blue</p>
+	              <p contenteditable="true">Status: no que está pensando...</p>
 	              <button type="button" class="btn btn-default btn-sm">
 	                <span class="glyphicon glyphicon-thumbs-up"></span> Like
 	              </button>     
@@ -92,17 +92,17 @@
 	    </div>
 	    <div class="col-sm-2 well">
 	      <div class="thumbnail">
-	        <p>Upcoming Events:</p>
+	        <p>Eventos:</p>
 	        <img src="img.jpg" alt="Paris" width="400" height="300">
-	        <p><strong>Paris</strong></p>
-	        <p>Fri. 27 November 2015</p>
+	        <p><strong>Inauguração LineTime</strong></p>
+	        <p>Ter. 25 Dezembro 2018</p>
 	        <button class="btn btn-primary">Info</button>
 	      </div>      
 	      <div class="well">
-	        <p>ADS</p>
+	        <p>Anuncios</p>
 	      </div>
 	      <div class="well">
-	        <p>ADS</p>
+	        <p>Anuncios</p>
 	      </div>
 	    </div>
 	  </div>
