@@ -10,6 +10,13 @@
 	background-color:#9BCD9B;
 }	
 
+.corpo1 {
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+
+}	
+
 .head {
 	margin-top: ;
 	width: 100%;
@@ -19,6 +26,7 @@
 }
 
 .foto_perfil {
+<<<<<<< HEAD
 	border: 1px solid black;
 	width: 120px;
 	height: 80px;
@@ -26,6 +34,14 @@
 	margin-top: 08px;
 	float: right;
 	border: 2px soft black;
+=======
+			border: 1px solid black;
+			width: 150px;
+			height: 150px;
+			margin-top: 10px;
+			float: left;
+			border-radius: 20px;
+>>>>>>> e94db3fa047fe3afa95c3c090dbed45691187504
 }	
 
 .line{
@@ -55,6 +71,7 @@
 }
 
 .midia {
+<<<<<<< HEAD
 	width: 320px;
 	height: 520px;
 	background:#DCDCDC;
@@ -65,6 +82,18 @@
 	box-sizing: border-box;
 	padding: 50px 30px;
 	border-radius: 10px;
+=======
+			width: 200px;
+			height: 520px;
+			background:#DCDCDC;
+			color: #B22222;
+			float:left ;
+			margin-left:-210px ;
+			margin-top:350px;  
+			box-sizing: border-box;
+			padding: 50px 30px;
+			border-radius: 10px;
+>>>>>>> e94db3fa047fe3afa95c3c090dbed45691187504
 }
 
 h4 {
@@ -75,6 +104,7 @@ h4 {
 }
 
 .pessoas_online{
+<<<<<<< HEAD
 	width: 320px;
 	height: 252px;
 	background:#1C1C1C;
@@ -86,6 +116,19 @@ h4 {
 	padding: 30px 30px;
 	border-radius: 10px;
 	border: 2px solid gray;
+=======
+			width: 200px;
+			height: 282px;
+			background:#9BCD9B;
+			color: #8FBC8F;
+			float:left ;
+			margin-left:-210px ;
+			margin-top:900px;
+			box-sizing: border-box;
+			padding: 30px 30px;
+			border-radius: 10px;
+			border: 2px solid gray;
+>>>>>>> e94db3fa047fe3afa95c3c090dbed45691187504
 }
 
 .pessoas_online input[type="submit"]{
@@ -98,6 +141,7 @@ h4 {
 	border-radius: 20px;
 }
 
+
 .pessoas_online input[type="submit"]:hover{
 	cursor: pointer;
 	background:#E0FFFF;
@@ -105,6 +149,7 @@ h4 {
 }
 
 .conteudo {
+<<<<<<< HEAD
 	width: 870px;
 	height: 800px;
 	background:#E8E8E8;
@@ -116,10 +161,20 @@ h4 {
 	box-sizing: border-box;
 	padding: 36px 30px;
 	border-radius: 10px;
+=======
+			width: 1100px;
+			height: 1250px;
+			background:#E8E8E8;
+			color: #B22222;
+			box-sizing: border-box;
+			padding: 36px 30px;
+			border-radius: 10px;
+>>>>>>> e94db3fa047fe3afa95c3c090dbed45691187504
 			
 }
 
 .empresas {
+<<<<<<< HEAD
 	width: 720px;
 	height: 180px;
 	background:#DCDCDC;
@@ -131,10 +186,47 @@ h4 {
 	box-sizing: border-box;
 	padding: 20px 30px;
 	border-radius: 10px;
+=======
+			width: 750px;
+			height: 180px;
+			background:#DCDCDC;
+			color: #B22222;
+			margin-left:250px ;
+			box-sizing: border-box;
+			padding: 20px 30px;
+			border-radius: 10px;
+>>>>>>> e94db3fa047fe3afa95c3c090dbed45691187504
 }
 h5 {
 	text-align: center;
 }
 .barra_postarpensamento {
+<<<<<<< HEAD
 	margin-top:190px;
 }					
+=======
+					float:center;
+					margin-top:50px;
+					margin-left:20px;
+					
+}					
+#nav nav {
+		border-radius:10px;
+		margin-top:15px;
+		margin-left:20px;
+		
+		
+}		
+
+#nome_usuario {
+				float:left;
+				margin-top:170px;
+				margin-left: -150px;
+}	
+
+
+
+
+
+		
+>>>>>>> e94db3fa047fe3afa95c3c090dbed45691187504
