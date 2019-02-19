@@ -12,6 +12,7 @@
 	//Incluindo a página nav.php, que contém apenas o meu superior do site
 	include("nav.php");
 	?>
+
 	<div class="container text-center">    
 	  <div class="row margin-top-conteudo">
 	    <div class="col-sm-3 well">
@@ -40,10 +41,10 @@
 	        <div class="col-sm-12">
 	          <div class="panel panel-default text-left">
 	            <div class="panel-body">
-	              <p contenteditable="true">Status: no que está pensando...</p>
-	              <button type="button" class="btn btn-default btn-sm">
-	                <span class="glyphicon glyphicon-thumbs-up"></span> Like
-	              </button>     
+	              <p contenteditable="true" >Status: no que está pensando...</p>
+	              <button type="button" class="btn btn-primary btn-sm">
+	                <span class="glyphicon glyphicon-send"></span> Postar
+	              </button> 
 	            </div>
 	          </div>
 	        </div>
@@ -56,10 +57,15 @@
 	           <img src="login.jpg" class="img-circle" height="55" width="55" alt="Avatar">
 	          </div>
 	        </div>
-	        <div class="col-sm-9">
+	        <div class="col-sm-8">
 	          <div class="well">
 	            <p>Just Forgot that I had to mention something about someone to someone about how I forgot something, but now I forgot it. Ahh, forget it! Or wait. I remember.... no I don't.</p>
 	          </div>
+	        </div>
+	        <div class="col-sm-1">
+	        	<button type="button" class="btn btn-default btn-sm botao-like">
+	                <span class="glyphicon glyphicon-thumbs-up"></span>
+	          </button>
 	        </div>
 	      </div>
 	      <div class="row">
@@ -69,10 +75,15 @@
 	           <img src="login.jpg" class="img-circle" height="55" width="55" alt="Avatar">
 	          </div>
 	        </div>
-	        <div class="col-sm-9">
+	        <div class="col-sm-8">
 	          <div class="well">
 	            <p>Just Forgot that I had to mention something about someone to someone about how I forgot something, but now I forgot it. Ahh, forget it! Or wait. I remember.... no I don't.</p>
 	          </div>
+	        </div>
+	        <div class="col-sm-1">
+	        	<button type="button" class="btn btn-default btn-sm botao-like">
+	                <span class="glyphicon glyphicon-thumbs-up"></span>
+	          </button>
 	        </div>
 	      </div>
 	      <div class="row">
@@ -82,10 +93,15 @@
 	           <img src="login.jpg" class="img-circle" height="55" width="55" alt="Avatar">
 	          </div>
 	        </div>
-	        <div class="col-sm-9">
+	        <div class="col-sm-8">
 	          <div class="well">
 	            <p>Just Forgot that I had to mention something about someone to someone about how I forgot something, but now I forgot it. Ahh, forget it! Or wait. I remember.... no I don't.</p>
 	          </div>
+	        </div>
+	        <div class="col-sm-1">
+	        	<button type="button" class="btn btn-default btn-sm botao-like">
+	                <span class="glyphicon glyphicon-thumbs-up"></span>
+	          </button>
 	        </div>
 	      </div>
 	      <div class="row">
@@ -95,10 +111,15 @@
 	           <img src="login.jpg" class="img-circle" height="55" width="55" alt="Avatar">
 	          </div>
 	        </div>
-	        <div class="col-sm-9">
+	        <div class="col-sm-8">
 	          <div class="well">
 	            <p>Just Forgot that I had to mention something about someone to someone about how I forgot something, but now I forgot it. Ahh, forget it! Or wait. I remember.... no I don't.</p>
 	          </div>
+	        </div>
+	        <div class="col-sm-1">
+	        	<button type="button" class="btn btn-default btn-sm botao-like">
+	                <span class="glyphicon glyphicon-thumbs-up"></span>
+	          </button>
 	        </div>
 	      </div>
 	          
