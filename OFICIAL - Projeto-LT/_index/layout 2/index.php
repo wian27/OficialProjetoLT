@@ -108,7 +108,7 @@
 	        <p>Eventos:</p>
 	        <img src="img.jpg" alt="Paris" width="400" height="300">
 	        <p><strong>Inauguração LineTime</strong></p>
-	        <p>Ter. 25 Dezembro 2018</p>
+	        <p>Ter. 25 Dezembro 2019</p>
 	        <button class="btn btn-primary">Info</button>
 	      </div>      
 	      <div class="well">
@@ -122,7 +122,7 @@
 	</div>
 
 	<footer class="container-fluid text-center">
-	  <p>Rodapé</p>
+	  <p>Todos os direitos reservados</p>
 	</footer>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
