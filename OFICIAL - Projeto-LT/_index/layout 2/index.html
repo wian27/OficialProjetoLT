@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example that shows off a responsive email layout.">
+    <title>LineTime.com</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/layouts/email-old-ie.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            <link rel="stylesheet" href="css/layouts/email.css">
+        <!--<![endif]-->
+</head>
+<body>
+
+<div class="corpo">
+    <div id="layout" class="content pure-g">
+        <div id="nav" class="pure-u">
+            
+            <a href="#" class="nav-menu-button">Menu</a>
+
+            <div class="pure-u-1-2">
+                        <h3 class="email-content-title"> <img src="imageshtml.png" class="avatar" width="45" height="45" alt=""> </h3>
+            </div>        
+
+            <div class="nav-inner">
+                  
+            <button class="primary-button pure-button email-item-unread"><b><i class="far fa-id-card"></i> PERFIL</b></button> 
+
+                <div class="pure-menu">
+                    <ul class="pure-menu-list email-item-unread-2">
+                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Menssagens <i class="fas fa-comments"></i><br> </a></li>
+                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Galeria de fotos <i class="fas fa-camera-retro"></i></a></li>
+                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Empresas <i class="fas fa-user-tie"></i></a></li>
+                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Amigos <i class="fas fa-user-friends"></i></a></li>
+
+                        <li class="pure-menu-heading email-item-unread"><b>Status</b></li>
+                        <li class="pure-menu-item"><a href="#" class="pure-menu-link"><i class="fas fa-comment-medical"></i> <font color="#008B45">(Online) 
+                            <label for="option-two" class="pure-radio"> <input id="option-two" type="radio" name="optionsRadios" value="option1"  checked> </label>
+                            </font></a></li>
+
+                        <li class="pure-menu-item"><a href="#" class="pure-menu-link"><i class="fas fa-comment-slash"></i> <font color="#B22222">(Indisponivel) 
+                        <label for="option-three" class="pure-radio"> <input id="option-three" type="radio" name="optionsRadios" value="option2"> </label></font></a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+            <form class="pure-form">
+                <li class="pure-menu-heading email-item-unread">Pesquisar</li>
+                <input class="input_busca" id="name" type="text" placeholder="Pesquisar usuarios">
+                <button class="button-success pure-button"><i class="fas fa-search-plus"></i></button>
+            </form>
+
+        </div>
+
+        <div id="list" class="pure-u-1">
+            
+            <table class="pure-table">
+                    <thead>
+                        <tr>
+                            <th><font color="#000000">Atividade - </font> <i class="fas fa-globe-americas"> </th>
+                        </tr>
+                    </thead>
+            </table> 
+
+            <div class="email-item email-item-selected email-item-unread pure-g">
+                
+                <div class="pure-u">
+                    <img width="64" height="64" alt="Tilo Mitra&#x27;s avatar" class="email-avatar" src="img/common/tilo-avatar.png">
+                </div>
+
+                <div class="pure-u-3-4">
+                    <h5 class="email-name">Tilo Mitra</h5>
+                    <h6 class="email-subject"> <font color="#006400">Amigo <i class="fas fa-user-friends"></i></font></h6>
+                    <p class="email-desc">
+                      <b> Acabou de publicar algo...</b>
+                    </p>
+                </div>
+            </div>
+
+            <div class="email-item email-item-selected email-item-unread pure-g">
+                <div class="pure-u">
+                    <img width="64" height="64" alt="Eric Ferraiuolo&#x27;s avatar" class="email-avatar" src="img/common/ericf-avatar.png">
+                </div>
+
+                <div class="pure-u-3-4">
+                    <h5 class="email-name">Eric Ferraiuolo</h5>
+                    <h6 class="email-subject"> <font color="#006400">Amigo <i class="fas fa-user-friends"></i></font></h6>
+                    <p class="email-desc">
+                      <b> Acabou de publicar algo...</b>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="email-item email-item-selected email-item-unread pure-g">
+                <div class="pure-u">
+                    <img width="64" height="64" alt="YUI&#x27;s avatar" class="email-avatar" src="img/common/yui-avatar.png">
+                </div>
+
+                <div class="pure-u-3-4">
+                    <h5 class="email-name">YUI Library</h5>
+                    <h6 class="email-subject"> <font color="#B22222">Anuncio <i class="fas fa-comment-dollar"></i></font></h6>
+                    <h4 class="email-subject">Sucesso da nova rede social</h4>
+                    <p class="email-desc">
+                       Rede social com novas ferramentas e com boas perspectivas dos usuarios, vem fazendo sucesso no mundo inteiro.
+                    </p>
+                </div>
+            </div>
+
+            <div class="email-item email-item-selected email-item-unread pure-g">
+                <div class="pure-u">
+                    <img width="64" height="64" alt="Reid Burke&#x27;s avatar" class="email-avatar" src="img/common/reid-avatar.png">
+                </div>
+
+                <div class="pure-u-3-4">
+                    <h5 class="email-name">Reid Burke</h5>
+                    <h6 class="email-subject"> <font color="#006400">Amigo <i class="fas fa-user-friends"></i></font></h6>
+                    <p class="email-desc">
+                      <b> Acabou de publicar algo...</b>
+                    </p>
+                </div>
+            </div>
+
+            <div class="email-item email-item-selected email-item-unread pure-g">
+                <div class="pure-u">
+                    <img width="64" height="64" alt="Andrew Wooldridge&#x27;s avatar" class="email-avatar" src="img/common/andrew-avatar.png">
+                </div>
+
+                <div class="pure-u-3-4">
+                    <h5 class="email-name">Andrew Wooldridge</h5>
+                    <h6 class="email-subject"> <font color="#006400">Amigo <i class="fas fa-user-friends"></i></font></h6>
+                    <p class="email-desc">
+                      <b> Acabou de publicar algo...</b>
+                    </p>
+                </div>
+            </div>
+
+            <div class="email-item email-item-selected email-item-unread pure-g">
+                <div class="pure-u">
+                    <img width="64" height="64" alt="Yahoo! Finance&#x27;s Avatar" class="email-avatar" src="img/common/yfinance-avatar.png">
+                </div>
+
+                <div class="pure-u-3-4">
+                    <h5 class="email-name">Yahoo! Finance</h5>
+                    <h6 class="email-subject"> <font color="#B22222">Anuncio <i class="fas fa-comment-dollar"></i></font></h6>
+                    <h4 class="email-subject">Novidades do governo brasileiro.</h4>
+                    <p class="email-desc">
+                         Derrota do governo na Câmara é resposta de Maia à queda de Bebianno.
+                    </p>
+                </div>
+            </div>
+
+            <div class="email-item email-item-selected email-item-unread pure-g">
+                <div class="pure-u">
+                    <img width="64" height="64" alt="Yahoo! News&#x27; avatar" class="email-avatar" src="img/common/ynews-avatar.png">
+                </div>
+
+                <div class="pure-u-3-4">
+                    <h5 class="email-name">Yahoo! News</h5>
+                    <h6 class="email-subject"> <font color="#B22222">Anuncio <i class="fas fa-comment-dollar"></i></font></h6>
+                    <h4 class="email-subject">Summary for April 3rd, 2012</h4>
+                    <p class="email-desc">
+                        We found 10 news articles that you may like.
+                    </p>
+                </div>
+            </div>
+       </div>
+
+	        	<div id="historias" class="pure-u-1"> 
+	        		<table class="pure-table">
+	                    <thead>
+	                        <tr>
+	                            <th><font color="#000000">Historias - <i class="fas fa-landmark"></i> <a class="pure-button pure-button-active-2" href="#"><i class="fas fa-history"></i></a> </th>
+	                        </tr>
+	                    </thead>
+	            	</table> 
+	        	
+	            	<div class="email-item email-item-selected-2 email-item-unread-3 pure-g">
+                
+		                <div class="pure-u">
+		                    <div class="img-historias"><img width="64" height="64" alt="Tilo Mitra&#x27;s avatar" class="email-avatar-h" src="img/common/tilo-avatar.png"></div>
+		                </div>
+
+		                <div class="pure-u">
+		                    <div class="img-historias"><img width="64" height="64" alt="Tilo Mitra&#x27;s avatar" class="email-avatar-h" src="img/common/reid-avatar.png"></div>
+		                </div>
+
+		                <div class="pure-u">
+		                    <div class="img-historias"><img width="64" height="64" alt="Tilo Mitra&#x27;s avatar" class="email-avatar-h" src="img/common/andrew-avatar.png"></div>
+		                </div>
+
+		                <div class="pure-u">
+		                    <div class="img-historias"><img width="64" height="64" alt="Tilo Mitra&#x27;s avatar" class="email-avatar-h" src="img/common/tilo-avatar.png"></div>
+		                </div>
+
+		                <p class="email-desc pure-u-1">
+		                	<font color="#006400">Amigos <i class="fas fa-user-friends"> </i></font>
+                    		<b>Linha do tempo de seus amigos, atualizada - <a href="#">Clique para ver todos.</a></b>
+                      	</p>	
+
+            		</div>
+
+	        	</div>	
+
+	        	<div id="empresas" class="pure-u-1"> 
+	        		<table class="pure-table">
+	                    <thead>
+	                        <tr>
+	                            <th><font color="#000000">Empresas e Anuncios - <i class="fas fa-user-tie"></i> <a class="pure-button pure-button-active-2" href="#"><i class="fas fa-history"></i></a> </th> </font>
+	                        </tr>
+	                    </thead>
+	            	</table>
+
+	            	<div class="email-item email-item-selected email-item-unread pure-g">
+                		<div class="pure-u">
+                    		<img width="64" height="64" alt="Reid Burke&#x27;s avatar" class="email-avatar" src="img/common/americanas.png">
+                		</div>
+
+		                <div class="pure-u-3-4">
+		                    <h5 class="email-name">Lojas Americanas</h5>
+		                    <h6 class="email-subject"> <font color="#B22222">Anuncio <i class="fas fa-comment-dollar"></i></font></h6>
+		                    <p class="email-desc">
+		                     	<b> Estamos contratando em diversas áreas, para saber mais envie seu CV -</b>
+		                    	<b> <a href="#">Enviar CV.</a></b>
+		                    </p>
+		                </div>
+            		</div>
+
+            		<div class="email-item email-item-selected email-item-unread pure-g">
+                		<div class="pure-u">
+                    		<img width="64" height="64" alt="Reid Burke&#x27;s avatar" class="email-avatar" src="img/common/walmart.png">
+                		</div>
+
+		                <div class="pure-u-3-4">
+		                    <h5 class="email-name">Walmart</h5>
+		                    <h6 class="email-subject"> <font color="#B22222">Anuncio <i class="fas fa-comment-dollar"></i></font></h6>
+		                    <p class="email-desc">
+		                     	<b> Promoções de verduras nessa semana -</b>
+		                    	<b> <a href="#">Confira a promoção.</a></b>
+		                    </p>
+		                </div>
+            		</div>
+
+	            </div>	
+
+
+                <div class="pure-u-1">
+
+                    <div class="pure-table-2">
+                        <h2 class="email-content-title-2"> <font color="#2E8B57">Line<font color="#B22222">T</font>ime</font></h2> 
+                   		<button class="button-saida email-item-unread-4"><i class="fas fa-backspace"></i> Sair</button>
+                    
+                    </div>
+                    
+
+                    <div class="pure-table-3">
+
+                    	<header class="post-header">
+                                <img width="48" height="48" alt="Tilo Mitra&#x27;s avatar" class="post-avatar-p" src="img/common/ericf-avatar.png">
+
+                    			<textarea rows="2" cols="45" placeholder=" Escreva o que está pensando..." id="textarea"></textarea>
+                               		
+                                <a class="pure-button pure-button-active-2" href="#"> <i class="fas fa-angle-double-right"></i></a>
+                                <button class="button-warning pure-button"><i class="fas fa-sign-in-alt"></i> Publicar</button>
+                                <button class="button-warning pure-button"><i class="fas fa-map-marker-alt"></i> Localização</button>
+                        </header>
+                      
+                    </div>
+                </div>    
+                <div class="separacao"> </div>
+                
+                <div class="pure-u-4-5">   
+                    <div class="separacao"> </div>
+                    
+                    <section class="post">
+                        <div class="quadrado">
+                            <header class="post-header">
+                                <img width="48" height="48" alt="Tilo Mitra&#x27;s avatar" class="post-avatar" src="img/common/tilo-avatar.png">
+
+                                     <h3 class="post-title"> Tilo Mitra </h3>
+                                        <div id="hora"><i class="fas fa-stopwatch"></i>  Publicou a 4min </div>
+                                        <hr></hr>
+                                        <p class="post-meta">
+                                           <h4 class="email-subject-2"><font color="#191970">Público <i class="fas fa-user-friends"></i></font></h4>
+                                        </p>
+                            </header>
+
+                            <div class="post-description">
+                                <p class="email-desc-2">
+                                   <h3>
+                                   
+                                   </h3>     
+                                </p>   
+                            </div>
+                            <form class="pure-form">
+                                <hr></hr>
+                                <input class="pure-input-1-2" type="text" placeholder="Comente a postagem">
+                                  <a class="pure-button pure-button-active" href="#"><i class="fas fa-angle-double-right"></i></a>
+                                  <button class="button-interacao  email-item-unread-6"> Interagir  <i class="fas fa-edit"></i></button>
+                                  	     
+	            			 </form>	
+                        </div>
+
+                    </section>
+                     
+                   
+                    <section class="post">
+                        <div class="quadrado">
+                            <header class="post-header">
+                                <img width="48" height="48" alt="Tilo Mitra&#x27;s avatar" class="post-avatar" src="img/common/ericf-avatar.png">
+
+                                <h3 class="post-title"> Eric Ferraiuolo </h3>
+                                <div id="hora"><i class="fas fa-stopwatch"></i>  Publicou a 20min </div>
+                                <hr></hr>
+                                <p class="post-meta">
+                                        <h4 class="email-subject-2"><font color="#191970">Público <i class="fas fa-user-friends"></i></font></h4>
+                                </p>
+                            </header>
+
+                            <div class="post-description">
+                                <p class="email-desc">
+                                   <h3>
+                                   
+                                   </h3> 
+                                </p>   
+                            </div>
+                        	<form class="pure-form">
+                                <hr></hr>
+                                <input class="pure-input-1-2" type="text" placeholder="Comente a postagem">
+                            	<a class="pure-button pure-button-active" href="#"><i class="fas fa-angle-double-right"></i></a>
+                                <button class="button-interacao  email-item-unread-6"> Interagir  <i class="fas fa-edit"></i></button>
+
+                            </form> 
+
+                        </div>
+                    </section>
+
+                   
+                    <section class="post">
+                        <div class="quadrado">
+                            <header class="post-header">
+                                <img width="48" height="48" alt="Tilo Mitra&#x27;s avatar" class="post-avatar" src="img/common/yui-avatar.png">
+
+                                <h3 class="post-title"> YUI LIBRARY </h3>
+                                <div id="hora"><i class="fas fa-stopwatch"></i>  Publicou a 1h </div>
+                                <hr></hr>
+                                <p class="post-meta">
+                                        <h4 class="email-subject-2"><font color="#B22222">Anuncio <i class="fas fa-comment-dollar"></i></font></h4>
+                                </p>
+                            </header>
+
+                            <div class="post-description">
+                                <p class="email-desc">
+                                    <h3>
+                                        
+
+                                    </h3>    
+                                </p>   
+                            </div>
+                        	<form class="pure-form">
+                                <hr></hr>
+                                <input class="pure-input-1-2" type="text" placeholder="Comente a postagem">
+                            	<a class="pure-button pure-button-active" href="#"><i class="fas fa-angle-double-right"></i></a>
+                                <button class="button-interacao  email-item-unread-6"> Interagir  <i class="fas fa-edit"></i></button>
+
+                            </form> 
+
+                        </div>
+                    </section>
+
+                    
+                    <section class="post">
+                        <div class="quadrado">
+                            <header class="post-header">
+                                <img width="48" height="48" alt="Tilo Mitra&#x27;s avatar" class="post-avatar" src="img/common/reid-avatar.png">
+
+                                <h3 class="post-title"> Reid Burke </h3>
+                                <div id="hora"><i class="fas fa-stopwatch"></i>  Publicou a 1h </div>
+                                <hr></hr>
+                                <p class="post-meta">
+                                        <h4 class="email-subject-2"><font color="#191970">Público <i class="fas fa-user-friends"></i></font></h4>
+                                </p>
+                            </header>
+
+                            <div class="post-description">
+                                <p class="email-desc">
+                                  <h3>
+                                    
+                                  </h3>  
+                                </p>   
+                            </div>
+                            <form class="pure-form">
+                                <hr></hr>
+                                <input class="pure-input-1-2" type="text" placeholder="Comente a postagem">
+                            	<a class="pure-button pure-button-active" href="#"><i class="fas fa-angle-double-right"></i></a>
+                                <button class="button-interacao  email-item-unread-6"> Interagir  <i class="fas fa-edit"></i></button>
+
+                            </form> 
+
+                        </div>
+                    </section>
+
+                    
+                    <section class="post">
+                        <div class="quadrado">
+                            <header class="post-header">
+                                <img width="48" height="48" alt="Tilo Mitra&#x27;s avatar" class="post-avatar" src="img/common/andrew-avatar.png">
+
+                                <h3 class="post-title"> ANDREW WOOLDRIDGE </h3>
+                                 <div id="hora"><i class="fas fa-stopwatch"></i>  Publicou a 1h </div>
+                                <hr></hr>
+                                <p class="post-meta">
+                                        <h4 class="email-subject-2"><font color="#191970">Público <i class="fas fa-user-friends"></i></font></h4>
+                                </p>
+                            </header>
+
+                            <div class="post-description">
+                                <p class="email-desc">
+                                    <h3>
+                                   
+
+                                 <p>
+                                    
+                                </p>   
+                                    </h3>
+                                </p>   
+                            </div>
+                            <form class="pure-form">
+                                <hr></hr>
+                                <input class="pure-input-1-2" type="text" placeholder="Comente a postagem">
+                            	<a class="pure-button pure-button-active" href="#"><i class="fas fa-angle-double-right"></i></a>
+                                <button class="button-interacao  email-item-unread-6"> Interagir  <i class="fas fa-edit"></i></button>
+
+                            </form> 
+                        </div>
+                    </section>
+                
+                    
+                    <section class="post">
+                        <div class="quadrado">
+                            <header class="post-header">
+                                <img width="48" height="48" alt="Tilo Mitra&#x27;s avatar" class="post-avatar" src="img/common/yfinance-avatar.png">
+
+                                <h3 class="post-title"> YAHOO! FINANCE </h3>
+                                 <div id="hora"><i class="fas fa-stopwatch"></i>  Publicou a 3h </div>
+                                <hr></hr>
+                                <p class="post-meta">
+                                        <h4 class="email-subject-2"><font color="#B22222">Anuncio <i class="fas fa-comment-dollar"></i></font></h4>
+                                </p>
+                            </header>
+
+                            <div class="post-description">
+                                <p class="email-desc">
+                                    <h3>
+                                       
+
+                                  <p>
+                                    
+                                </p>  
+                                    </h3>
+                                </p>   
+                            </div>
+                            <form class="pure-form">
+                                <hr></hr>
+                                <input class="pure-input-1-2" type="text" placeholder="Comente a postagem">			
+                            	<a class="pure-button pure-button-active" href="#"><i class="fas fa-angle-double-right"></i></a>
+                                <button class="button-interacao  email-item-unread-6"> Interagir  <i class="fas fa-edit"></i></button>
+
+                            </form> 
+
+                        </div>
+                    </section>
+				
+					<div class="pure-u-1">
+                    	<div class="pure-table-2">
+                    		<header class="post-header">
+                    			<div class="amigos-online">
+                    				<table class="pure-table email-item-unread-2">
+					                    
+                    					<table class="pure-table">
+						                    <thead>
+						                        <tr>
+						                            <th><font color="#000000">Amigos online - <i class="fas fa-user-friends"></i></a> <a class="pure-button pure-button-active-2" href="#"></th> </font> </th>
+						                        </tr>
+						                    </thead>
+            							</table> 
+
+					                     <ul class="pure-menu-list ">
+	                        					
+	                        					<li class="pure-menu-heading email-item-unread"><b>Online</b></li>
+
+	                        					<img width="22" height="22" alt="Tilo Mitra&#x27;s avatar" class="post-avatar" src="img/common/tilo-avatar.png">
+	                        						
+	                        					<li class="pure-menu-item-2"><a href="#" class="pure-menu-link">Tilo Mitra <font color="#008B45"><i class="fas fa-comments"></i> </font></a> 
+
+	                        					</li>
+						                    	
+						                    	<img width="22" height="22" alt="Tilo Mitra&#x27;s avatar" class="post-avatar" src="img/common/reid-avatar.png">
+
+						                    	<li class="pure-menu-item-2"><a href="#" class="pure-menu-link">Reid Burke <font color="#008B45"><i class="fas fa-comments"></i> </font> </a>
+						                    	
+						                    	</li>	
+		            						
+						                    <button class="button-tds-amigos email-item-unread-4"><i class="fas fa-user-friends"></i> Ver todos</button>
+
+						                    </ul>
+	            							<ul class="pure-menu-list ">
+
+		            							<li class="pure-menu-heading email-item-unread-3"><b>Offine</b></li>
+
+		            							<img width="22" height="22" alt="Tilo Mitra&#x27;s avatar" class="post-avatar" src="img/common/file-icons.png">
+		            							
+		            							<li class="pure-menu-item-2"><a href="#" class="pure-menu-link">Caio <i class="fas fa-comments"></i></a> 
+
+		            							</li>	
+
+		            							<img width="22" height="22" alt="Tilo Mitra&#x27;s avatar" class="post-avatar" src="img/common/file-icons.png">
+
+		            							<li class="pure-menu-item-2"><a href="#" class="pure-menu-link">Jhonata <i class="fas fa-comments"></i></a>
+
+		            							</li>
+		            							
+		            							<img width="22" height="22" alt="Tilo Mitra&#x27;s avatar" class="post-avatar" src="img/common/file-icons.png">	
+
+		            							<li class="pure-menu-item-2"><a href="#" class="pure-menu-link">Wian <i class="fas fa-comments"></i></a>
+
+		            							</li>
+
+		            						<button class="button-tds-amigos email-item-unread-4"><i class="fas fa-user-friends"></i> Ver todos</button>
+		            						</ul>	
+                    			</div>	
+                    		</header>	
+                    	</div>	
+                	</div>
+                </div>
+                
+            
+
+    <script src="https://yui-s.yahooapis.com/3.18.1/build/yui/yui-min.js"></script>
+    <script>
+        YUI().use('node-base', 'node-event-delegate', function (Y) {
+
+            var menuButton = Y.one('.nav-menu-button'),
+                nav        = Y.one('#nav');
+
+            // Setting the active class name expands the menu vertically on small screens.
+            menuButton.on('click', function (e) {
+                nav.toggleClass('active');
+            });
+
+            // Your application code goes here...
+
+        });
+    
+
+    </script>
+</div>
+</body>
+
+</html>
