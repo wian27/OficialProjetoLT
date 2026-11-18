@@ -1,10 +1,5 @@
 <?php
-
-
-session_start();
-
-
-session_destroy();
-header('Location: login.php');
-
-?>
+declare(strict_types=1);
+// Encerrar sessão agora exige POST com token CSRF.
+header('Location: login.php', true, 303);
+exit;

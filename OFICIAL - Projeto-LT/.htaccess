@@ -1,0 +1,14 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^(?:_index|empresas)(?:/|$) - [R=404,L]
+</IfModule>
+
+<FilesMatch "\.(sql|log|ini|env)$">
+    Require all denied
+</FilesMatch>
+
+<FilesMatch "^(?:\.gitignore|\.env(?:\.example)?)$">
+    Require all denied
+</FilesMatch>

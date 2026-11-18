@@ -1,11 +1,5 @@
 <?php
-session_start();
-
-if (!isset($_SESSION['autenticado'])|| $_SESSION['autenticado'] != 'SIM') {
- header('Location: index.php?login=erro2');
-}
-
-echo $_SESSION['autenticado'];
-?>
-
-
+declare(strict_types=1);
+// A validação antiga de sessão foi substituída por app/bootstrap.php.
+header('Location: login.php', true, 303);
+exit;
